@@ -1,0 +1,57 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class fcgw extends eyfy implements eyht {
+    public static final fcgw a;
+    private static volatile eyhz e;
+    public fcek b;
+    public long c;
+    public fcho d;
+    private int f;
+
+    static {
+        fcgw fcgwVar = new fcgw();
+        a = fcgwVar;
+        eyfy.registerDefaultInstance(fcgw.class, fcgwVar);
+    }
+
+    private fcgw() {
+    }
+
+    @Override // defpackage.eyfy
+    protected final Object dynamicMethod(eyfx eyfxVar, Object obj, Object obj2) {
+        eyhz eyhzVar;
+        int ordinal = eyfxVar.ordinal();
+        if (ordinal == 0) {
+            return (byte) 1;
+        }
+        if (ordinal == 2) {
+            return newMessageInfo(a, "\u0000\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002\u0002\u0003ဉ\u0001", new Object[]{"f", "b", "c", "d"});
+        }
+        if (ordinal == 3) {
+            return new fcgw();
+        }
+        if (ordinal == 4) {
+            return new fcgv();
+        }
+        if (ordinal == 5) {
+            return a;
+        }
+        if (ordinal != 6) {
+            throw null;
+        }
+        eyhz eyhzVar2 = e;
+        if (eyhzVar2 != null) {
+            return eyhzVar2;
+        }
+        synchronized (fcgw.class) {
+            eyhzVar = e;
+            if (eyhzVar == null) {
+                eyhzVar = new eyfr(a);
+                e = eyhzVar;
+            }
+        }
+        return eyhzVar;
+    }
+}

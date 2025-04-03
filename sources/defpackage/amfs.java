@@ -1,0 +1,23 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+final class amfs extends ffhr {
+    /* synthetic */ Object a;
+    final /* synthetic */ amfv b;
+    int c;
+    amfv d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public amfs(amfv amfvVar, ffgu ffguVar) {
+        super(ffguVar);
+        this.b = amfvVar;
+    }
+
+    @Override // defpackage.ffhp
+    public final Object b(Object obj) {
+        this.a = obj;
+        this.c |= Integer.MIN_VALUE;
+        return this.b.d(this);
+    }
+}

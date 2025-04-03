@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sticker_pack_background"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground">
+    <ImageView
+        android:id="@+id/sticker_pack_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sticker_pack_icon_height"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:gravity="top|center_horizontal"
+        android:id="@+id/sticker_pack_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sticker_pack_thumbnail"
+        style="@style/StickerPackLabel"/>
+    <ImageView
+        android:id="@+id/sticker_pack_favorite_indicator"
+        android:visibility="gone"
+        android:layout_width="@dimen/sticker_pack_favorite_indicator_size"
+        android:layout_height="@dimen/sticker_pack_favorite_indicator_size"
+        android:scaleType="fitCenter"
+        android:tint="@color/favorites_button_filled_color"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quantum_gm_ic_favorite_vd_theme_24"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opt_out_multidevice_notification_title_legacy">Vous vous êtes connecté·e sur un autre téléphone</string>
+    <string name="unsubscribe_bottomsheet_uninterested_2024_11_26">Je ne suis plus intéressé·e</string>
+    <string name="unsubscribe_bottomsheet_unwanted_2024_11_26">Je ne me suis pas inscrit·e</string>
+</resources>

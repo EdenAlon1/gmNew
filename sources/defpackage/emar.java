@@ -1,0 +1,7 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class emar {
+    public final fgjb a = new fgjf();
+}

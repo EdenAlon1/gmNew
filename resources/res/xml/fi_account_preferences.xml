@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:persistent="false"
+        android:title="@string/fi_account_login_title"
+        android:key="@string/fi_account_login_pref_key"
+        android:summary="@string/fi_account_login_summary"
+        app:allowDividerAbove="true"/>
+    <Preference
+        android:persistent="false"
+        android:title="@string/fi_account_login_learn_more"
+        android:key="@string/fi_account_learn_more_pref_key"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

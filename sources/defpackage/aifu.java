@@ -1,0 +1,23 @@
+package defpackage;
+
+import j$.util.function.BiConsumer$CC;
+import java.util.function.BiConsumer;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+final /* synthetic */ class aifu implements BiConsumer {
+    private final /* synthetic */ ffjm a;
+
+    public aifu(ffjm ffjmVar) {
+        this.a = ffjmVar;
+    }
+
+    @Override // java.util.function.BiConsumer
+    public final /* synthetic */ void accept(Object obj, Object obj2) {
+        this.a.a(obj, obj2);
+    }
+
+    public final /* synthetic */ BiConsumer andThen(BiConsumer biConsumer) {
+        return BiConsumer$CC.$default$andThen(this, biConsumer);
+    }
+}

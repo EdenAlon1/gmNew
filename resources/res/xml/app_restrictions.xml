@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction
+        android:description="@string/app_restrictions_disable_rcs_description"
+        android:title="@string/app_restrictions_disable_rcs_title"
+        android:key="disable_rcs"
+        android:defaultValue="false"
+        android:restrictionType="bool"/>
+    <restriction
+        android:description="@string/app_restrictions_messages_archival_app_description"
+        android:title="@string/app_restrictions_messages_archival_app_title"
+        android:key="messages_archival"
+        android:defaultValue=""
+        android:restrictionType="string"/>
+</restrictions>

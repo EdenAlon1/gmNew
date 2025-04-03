@@ -1,0 +1,15 @@
+package defpackage;
+
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class elxo extends elyj {
+    private final Optional a = Optional.empty();
+    private final Optional b = Optional.empty();
+
+    @Override // defpackage.elpd
+    public final /* bridge */ /* synthetic */ Object a() {
+        return new elxp(this.a, this.b);
+    }
+}

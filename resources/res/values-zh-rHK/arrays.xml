@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>記錄歡樂時光</item>
+        <item>開心自拍</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>正常</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>愛</item>
+        <item>好</item>
+        <item>親吻</item>
+        <item>打招呼</item>
+        <item>擁抱</item>
+        <item>派對</item>
+        <item>生氣</item>
+        <item>興奮</item>
+        <item>再見</item>
+        <item>笑死我了</item>
+        <item>哭泣</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>揮手</item>
+        <item>傳送一張吃早餐的自拍</item>
+        <item>傳送一張早上的自拍</item>
+        <item>傳送一張想睡的的自拍</item>
+        <item>傳送一張喝咖啡的自拍！</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>傳送一張想睡的的自拍</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>傳送豎起的姆指以示喜歡</item>
+        <item>揮手</item>
+        <item>傳送自拍</item>
+        <item>分享你的心情</item>
+        <item>傳送鬼臉</item>
+    </array>
+    <array name="love_strings">
+        <item>傳送自拍</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>好</item>
+        <item>不</item>
+        <item>確定</item>
+        <item>呵呵</item>
+        <item>多謝</item>
+        <item>我同意</item>
+        <item>很好</item>
+        <item>我嚟緊喇</item>
+        <item>好，我稍後再回覆你</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>附帶連結的短訊</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>永遠以短訊形式重新傳送</item>
+        <item>不使用漫遊服務時以短訊形式重新傳送</item>
+        <item>重新傳送前先詢問</item>
+        <item>永不以短訊形式重新傳送</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>永遠以短訊/MMS 形式重新傳送</item>
+        <item>不使用漫遊服務時以短訊/MMS 形式重新傳送</item>
+        <item>重新傳送前先詢問</item>
+        <item>永不以短訊/MMS 形式重新傳送</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

@@ -1,0 +1,42 @@
+package defpackage;
+
+import android.net.Uri;
+import android.os.Parcel;
+import android.os.ParcelFileDescriptor;
+import android.os.Parcelable;
+import com.google.android.gms.wearable.Asset;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class dhyw implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int h = dfxj.h(parcel);
+        byte[] bArr = null;
+        String str = null;
+        ParcelFileDescriptor parcelFileDescriptor = null;
+        Uri uri = null;
+        while (parcel.dataPosition() < h) {
+            int readInt = parcel.readInt();
+            int d = dfxj.d(readInt);
+            if (d == 2) {
+                bArr = dfxj.E(parcel, readInt);
+            } else if (d == 3) {
+                str = dfxj.t(parcel, readInt);
+            } else if (d == 4) {
+                parcelFileDescriptor = (ParcelFileDescriptor) dfxj.n(parcel, readInt, ParcelFileDescriptor.CREATOR);
+            } else if (d != 5) {
+                dfxj.C(parcel, readInt);
+            } else {
+                uri = (Uri) dfxj.n(parcel, readInt, Uri.CREATOR);
+            }
+        }
+        dfxj.B(parcel, h);
+        return new Asset(bArr, str, parcelFileDescriptor, uri);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i) {
+        return new Asset[i];
+    }
+}

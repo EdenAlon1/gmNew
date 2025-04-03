@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/switch_to_gaia_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/switch_to_gaia_button_top_margin"
+        android:text="@string/switch_to_gaia_pairing"
+        style="?attr/materialButtonOutlinedStyle"/>
+</merge>

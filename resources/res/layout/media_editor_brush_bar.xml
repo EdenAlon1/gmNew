@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.research.ink.libs.buttons.PenSelectionButton
+        android:id="@+id/highlighter_line_type"
+        android:src="@drawable/ink_highlighter"
+        app:ink_alt_color="@android:color/black"
+        app:ink_changed_color="@android:color/black"
+        app:ink_constant_color="@android:color/white"
+        app:ink_tool_name="@string/highlighter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pencil_line_type"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/StrokeButton"/>
+    <com.google.research.ink.libs.buttons.PenSelectionButton
+        android:id="@+id/pencil_line_type"
+        android:src="@drawable/ink_marker"
+        app:ink_alt_color="@android:color/black"
+        app:ink_changed_color="@android:color/black"
+        app:ink_constant_color="@android:color/white"
+        app:ink_tool_name="@string/pencil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calligraphy_line_type"
+        app:layout_constraintStart_toEndOf="@+id/highlighter_line_type"
+        style="@style/StrokeButton"/>
+    <com.google.research.ink.libs.buttons.PenSelectionButton
+        android:id="@+id/calligraphy_line_type"
+        android:src="@drawable/ink_pen_button"
+        app:ink_alt_color="@android:color/black"
+        app:ink_changed_color="@android:color/black"
+        app:ink_constant_color="@android:color/white"
+        app:ink_tool_name="@string/calligraphy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/pencil_line_type"
+        style="@style/StrokeButton"/>
+</android.support.constraint.ConstraintLayout>

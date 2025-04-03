@@ -1,0 +1,19 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum falv {
+    API_RESULT,
+    DATABASE_OPEN_ERROR,
+    SCHEMA_MIGRATION_START,
+    SCHEMA_MIGRATION_END,
+    FAILED_TO_DECRYPT,
+    DECRYPTION_SUCCESSFUL,
+    FAILED_TO_ENCRYPT,
+    ENCRYPTION_SUCCESSFUL,
+    PREKEY_FETCH_COMPLETE,
+    FTD_SHOULD_NOT_BE_SENT,
+    KEY_TRANSPARENCY_EVENT,
+    SET_DEVICE_ID_EVENT,
+    EVENT_NOT_SET
+}

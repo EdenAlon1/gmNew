@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class aurl implements fbba {
+    public static String a() {
+        return "bugle.read_samsung_bit_in_samsung_signature";
+    }
+
+    @Override // defpackage.ffbr, defpackage.ffbq
+    public final /* bridge */ /* synthetic */ Object b() {
+        throw null;
+    }
+}

@@ -1,0 +1,213 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class etdq implements evbl {
+    public final engw af;
+    public final enip ag;
+    private final enhk aj;
+    public static final ecda a = new ecda("google.communications.jibemessagestore.v1.MessageStore.");
+    private static final ecda ah = new ecda("google.communications.jibemessagestore.v1.MessageStore/");
+    public static final evbk b = new etbx();
+    public static final evbk c = new etci();
+    public static final evbk d = new etct();
+    public static final evbk e = new etde();
+    public static final evbk f = new etdl();
+    public static final evbk g = new etdm();
+    public static final evbk h = new etdn();
+    public static final evbk i = new etdo();
+    public static final evbk j = new etdp();
+    public static final evbk k = new etbn();
+    public static final evbk l = new etbo();
+    public static final evbk m = new etbp();
+    public static final evbk n = new etbq();
+    public static final evbk o = new etbr();
+    public static final evbk p = new etbs();
+    public static final evbk q = new etbt();
+    public static final evbk r = new etbu();
+    public static final evbk s = new etbv();
+    public static final evbk t = new etbw();
+    public static final evbk u = new etby();
+    public static final evbk v = new etbz();
+    public static final evbk w = new etca();
+    public static final evbk x = new etcb();
+    public static final evbk y = new etcc();
+    public static final evbk z = new etcd();
+    public static final evbk A = new etce();
+    public static final evbk B = new etcf();
+    public static final evbk C = new etcg();
+    public static final evbk D = new etch();
+    public static final evbk E = new etcj();
+    public static final evbk F = new etck();
+    public static final evbk G = new etcl();
+    public static final evbk H = new etcm();
+    public static final evbk I = new etcn();
+    public static final evbk J = new etco();
+    public static final evbk K = new etcp();
+    public static final evbk L = new etcq();
+    public static final evbk M = new etcr();
+    public static final evbk N = new etcs();
+    public static final evbk O = new etcu();
+    public static final evbk P = new etcv();
+    public static final evbk Q = new etcw();
+    public static final evbk R = new etcx();
+    public static final evbk S = new etcy();
+    public static final evbk T = new etcz();
+    public static final evbk U = new etda();
+    public static final evbk V = new etdb();
+    public static final evbk W = new etdc();
+    public static final evbk X = new etdd();
+    public static final evbk Y = new etdf();
+    public static final evbk Z = new etdg();
+    public static final evbk aa = new etdh();
+    public static final evbk ab = new etdi();
+    public static final evbk ac = new etdj();
+    public static final evbk ad = new etdk();
+    public static final etdq ae = new etdq();
+    private static final ecda ai = new ecda("jibemessagestore.googleapis.com");
+
+    private etdq() {
+        int i2 = engw.d;
+        engr engrVar = new engr();
+        engrVar.h("autopush-jibemessagestore.mtls.sandbox.googleapis.com");
+        engrVar.h("autopush-jibemessagestore.sandbox.googleapis.com");
+        engrVar.h("jibemessagestore.mtls.googleapis.com");
+        engrVar.h("staging-jibemessagestore.mtls.sandbox.googleapis.com");
+        engrVar.h("staging-jibemessagestore.sandbox.googleapis.com");
+        engrVar.h("jibemessagestore.googleapis.com");
+        this.af = engrVar.g();
+        this.ag = new enin().g();
+        evbk evbkVar = b;
+        evbk evbkVar2 = c;
+        evbk evbkVar3 = d;
+        evbk evbkVar4 = e;
+        evbk evbkVar5 = f;
+        evbk evbkVar6 = g;
+        evbk evbkVar7 = h;
+        evbk evbkVar8 = i;
+        evbk evbkVar9 = j;
+        evbk evbkVar10 = k;
+        evbk evbkVar11 = l;
+        evbk evbkVar12 = m;
+        evbk evbkVar13 = n;
+        evbk evbkVar14 = o;
+        evbk evbkVar15 = p;
+        evbk evbkVar16 = q;
+        evbk evbkVar17 = r;
+        evbk evbkVar18 = s;
+        evbk evbkVar19 = t;
+        evbk evbkVar20 = u;
+        evbk evbkVar21 = v;
+        evbk evbkVar22 = w;
+        evbk evbkVar23 = x;
+        evbk evbkVar24 = y;
+        evbk evbkVar25 = z;
+        evbk evbkVar26 = A;
+        evbk evbkVar27 = B;
+        evbk evbkVar28 = C;
+        evbk evbkVar29 = D;
+        evbk evbkVar30 = E;
+        evbk evbkVar31 = F;
+        evbk evbkVar32 = G;
+        evbk evbkVar33 = H;
+        evbk evbkVar34 = I;
+        evbk evbkVar35 = J;
+        evbk evbkVar36 = K;
+        evbk evbkVar37 = L;
+        evbk evbkVar38 = M;
+        evbk evbkVar39 = N;
+        evbk evbkVar40 = O;
+        evbk evbkVar41 = P;
+        evbk evbkVar42 = Q;
+        evbk evbkVar43 = R;
+        evbk evbkVar44 = S;
+        evbk evbkVar45 = T;
+        evbk evbkVar46 = U;
+        evbk evbkVar47 = V;
+        evbk evbkVar48 = W;
+        evbk evbkVar49 = X;
+        evbk evbkVar50 = Y;
+        evbk evbkVar51 = Z;
+        evbk evbkVar52 = aa;
+        evbk evbkVar53 = ab;
+        evbk evbkVar54 = ac;
+        evbk evbkVar55 = ad;
+        enip.v(evbkVar, evbkVar2, evbkVar3, evbkVar4, evbkVar5, evbkVar6, evbkVar7, evbkVar8, evbkVar9, evbkVar10, evbkVar11, evbkVar12, evbkVar13, evbkVar14, evbkVar15, evbkVar16, evbkVar17, evbkVar18, evbkVar19, evbkVar20, evbkVar21, evbkVar22, evbkVar23, evbkVar24, evbkVar25, evbkVar26, evbkVar27, evbkVar28, evbkVar29, evbkVar30, evbkVar31, evbkVar32, evbkVar33, evbkVar34, evbkVar35, evbkVar36, evbkVar37, evbkVar38, evbkVar39, evbkVar40, evbkVar41, evbkVar42, evbkVar43, evbkVar44, evbkVar45, evbkVar46, evbkVar47, evbkVar48, evbkVar49, evbkVar50, evbkVar51, evbkVar52, evbkVar53, evbkVar54, evbkVar55);
+        enhd enhdVar = new enhd();
+        enhdVar.k("CreateObject", evbkVar);
+        enhdVar.k("GetObject", evbkVar2);
+        enhdVar.k("ListObjects", evbkVar3);
+        enhdVar.k("DeleteObject", evbkVar4);
+        enhdVar.k("UpdateObject", evbkVar5);
+        enhdVar.k("DeleteObjectsList", evbkVar6);
+        enhdVar.k("GetObjectFlags", evbkVar7);
+        enhdVar.k("BatchUpdateObjectsFlags", evbkVar8);
+        enhdVar.k("GetPayload", evbkVar9);
+        enhdVar.k("GetPayloadPart", evbkVar10);
+        enhdVar.k("AddPayloadParts", evbkVar11);
+        enhdVar.k("UpdatePayloadPart", evbkVar12);
+        enhdVar.k("CreateConversation", evbkVar13);
+        enhdVar.k("BatchCreateConversations", evbkVar14);
+        enhdVar.k("GetConversation", evbkVar15);
+        enhdVar.k("ListConversations", evbkVar16);
+        enhdVar.k("DeleteConversation", evbkVar17);
+        enhdVar.k("UpdateConversation", evbkVar18);
+        enhdVar.k("GetConversationByCorrelationId", evbkVar19);
+        enhdVar.k("BatchGetConversationsByCorrelationIds", evbkVar20);
+        enhdVar.k("BatchUpdateConversationsInteractionStates", evbkVar21);
+        enhdVar.k("ListConversationObjects", evbkVar22);
+        enhdVar.k("BatchGetConversations", evbkVar23);
+        enhdVar.k("BatchCreateObjects", evbkVar24);
+        enhdVar.k("GetObjectByCorrelationId", evbkVar25);
+        enhdVar.k("GetObjectsByCorrelationTag", evbkVar26);
+        enhdVar.k("BatchGetObjectsByCorrelationIds", evbkVar27);
+        enhdVar.k("GetFolder", evbkVar28);
+        enhdVar.k("CreateBox", evbkVar29);
+        enhdVar.k("DeleteBox", evbkVar30);
+        enhdVar.k("GetBox", evbkVar31);
+        enhdVar.k("ListBoxes", evbkVar32);
+        enhdVar.k("ListBoxEvents", evbkVar33);
+        enhdVar.k("UpdateBox", evbkVar34);
+        enhdVar.k("ResetBox", evbkVar35);
+        enhdVar.k("RecoverBox", evbkVar36);
+        enhdVar.k("CreateParticipant", evbkVar37);
+        enhdVar.k("BatchCreateParticipants", evbkVar38);
+        enhdVar.k("DeleteParticipant", evbkVar39);
+        enhdVar.k("GetParticipant", evbkVar40);
+        enhdVar.k("BatchGetParticipants", evbkVar41);
+        enhdVar.k("ListParticipants", evbkVar42);
+        enhdVar.k("UpdateParticipant", evbkVar43);
+        enhdVar.k("AddConversationParticipant", evbkVar44);
+        enhdVar.k("RemoveConversationParticipant", evbkVar45);
+        enhdVar.k("ListConversationParticipants", evbkVar46);
+        enhdVar.k("GetConversationParticipantHistory", evbkVar47);
+        enhdVar.k("BatchDeleteFiles", evbkVar48);
+        enhdVar.k("CreateFile", evbkVar49);
+        enhdVar.k("DeleteFile", evbkVar50);
+        enhdVar.k("GetFile", evbkVar51);
+        enhdVar.k("ListFiles", evbkVar52);
+        enhdVar.k("UpdateFile", evbkVar53);
+        enhdVar.k("GetUserStorageInfo", evbkVar54);
+        enhdVar.k("ExportUserDataReference", evbkVar55);
+        this.aj = enhdVar.c();
+        new enhd().c();
+    }
+
+    @Override // defpackage.evbl
+    public final ecda a() {
+        return ai;
+    }
+
+    @Override // defpackage.evbl
+    public final evbk b(String str) {
+        String str2 = ah.a;
+        if (!str.startsWith(str2)) {
+            return null;
+        }
+        String substring = str.substring(str2.length());
+        if (this.aj.containsKey(substring)) {
+            return (evbk) this.aj.get(substring);
+        }
+        return null;
+    }
+}

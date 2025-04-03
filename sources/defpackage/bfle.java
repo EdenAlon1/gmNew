@@ -1,0 +1,91 @@
+package defpackage;
+
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.ConversationIdType;
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.MessageIdType;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class bfle {
+    public static final void a(ConversationIdType conversationIdType, cpxu cpxuVar, byyy byyyVar, byyt byytVar, ayhd ayhdVar, Optional optional, cfmh cfmhVar, MessageIdType messageIdType, ardn ardnVar, ConversationIdType conversationIdType2, dtrr dtrrVar) {
+        bfld bfldVar = new bfld();
+        bfldVar.aC(dtrrVar.aB());
+        bfldVar.a = conversationIdType;
+        bfldVar.b = cpxuVar;
+        bfldVar.c = null;
+        bfldVar.d = byyyVar;
+        bfldVar.e = null;
+        bfldVar.f = null;
+        bfldVar.g = null;
+        bfldVar.h = null;
+        bfldVar.i = false;
+        bfldVar.j = null;
+        bfldVar.k = null;
+        bfldVar.l = null;
+        bfldVar.m = null;
+        bfldVar.n = 0;
+        bfldVar.o = byytVar;
+        bfldVar.p = 0L;
+        bfldVar.q = null;
+        bfldVar.r = -1L;
+        bfldVar.s = null;
+        bfldVar.t = null;
+        bfldVar.u = null;
+        bfldVar.v = null;
+        bfldVar.w = 0;
+        bfldVar.x = true;
+        bfldVar.y = null;
+        bfldVar.z = true;
+        bfldVar.A = false;
+        bfldVar.B = 0;
+        bfldVar.C = -1L;
+        bfldVar.D = 0;
+        bfldVar.E = 0;
+        bfldVar.F = 0;
+        bfldVar.G = false;
+        bfldVar.H = false;
+        bfldVar.I = null;
+        bfldVar.J = 0L;
+        bfldVar.K = null;
+        bfldVar.L = null;
+        bfldVar.M = null;
+        bfldVar.N = true;
+        bfldVar.O = false;
+        bfldVar.P = ayhdVar;
+        bfldVar.Q = optional;
+        bfldVar.R = false;
+        bfldVar.S = false;
+        bfldVar.T = cfmhVar;
+        bfldVar.U = 0;
+        bfldVar.V = messageIdType;
+        bfldVar.W = 0L;
+        bfldVar.X = 0L;
+        bfldVar.Y = 0;
+        bfldVar.Z = 0;
+        bfldVar.aa = false;
+        bfldVar.ab = 0;
+        bfldVar.ac = 0;
+        bfldVar.ad = -1;
+        bfldVar.ae = null;
+        bfldVar.af = -2;
+        bfldVar.ag = null;
+        bfldVar.ah = null;
+        bfldVar.ai = null;
+        bfldVar.aj = -1L;
+        bfldVar.ak = 0L;
+        bfldVar.al = null;
+        bfldVar.am = null;
+        bfldVar.an = null;
+        bfldVar.ao = null;
+        bfldVar.ap = null;
+        bfldVar.aq = null;
+        bfldVar.ar = ardnVar;
+        bfldVar.as = null;
+        bfldVar.at = 0L;
+        bfldVar.au = 0;
+        bfldVar.av = null;
+        bfldVar.aw = 0L;
+        bfldVar.ax = conversationIdType2;
+        bfldVar.cK = dtrrVar.aC();
+    }
+}

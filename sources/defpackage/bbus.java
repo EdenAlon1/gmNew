@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class bbus extends dtvg {
+    public bbus(dtvj dtvjVar, duap duapVar) {
+        super(dtvjVar, duapVar == null ? new bbva(new bbvb()) : duapVar);
+    }
+}

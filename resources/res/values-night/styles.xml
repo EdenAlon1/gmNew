@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BugleTheme.SwipeActionSettingsActivity" parent="@style/BugleToolbarTheme">
+        <item name="colorOnSurfaceIllustration">@color/gm3_ref_palette_neutral_variant40</item>
+    </style>
+    <style name="OneGoogle.AccountMenu.DayNight" parent="@style/OneGoogle.AccountMenu.Dark">
+    </style>
+    <style name="OneGoogle.AccountMenu.GoogleMaterial3.DayNight" parent="@style/OneGoogle.AccountMenu.GoogleMaterial3.Dark">
+    </style>
+    <style name="OneGoogle.AccountParticleDisc.DayNight" parent="@style/OneGoogle.AccountParticleDisc.Dark">
+    </style>
+    <style name="OneGoogle.ExpressSignIn.Attrs.GoogleMaterial3WithBox" parent="@style/OneGoogle.ExpressSignIn.Attrs.GoogleMaterial3WithBox.Base">
+        <item name="elevationOverlayEnabled">true</item>
+    </style>
+    <style name="OneGoogle.ExpressSignIn.GoogleMaterial.DayNight" parent="@style/OneGoogle.ExpressSignIn.GoogleMaterial.Dark">
+    </style>
+    <style name="OneGoogle.ExpressSignIn.GoogleMaterial3.DayNight" parent="@style/OneGoogle.ExpressSignIn.GoogleMaterial3.Dark">
+    </style>
+    <style name="OneGoogle.Tooltip.White.GoogleMaterial.DayNight" parent="@style/OneGoogle.Tooltip.White.GoogleMaterial.Dark">
+    </style>
+    <style name="SudThemeGlif.DayNight" parent="@style/SudThemeGlif">
+    </style>
+    <style name="SudThemeGlifV3.DayNight" parent="@style/SudThemeGlifV3">
+    </style>
+    <style name="SurveyCheckBoxStyle" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">true</item>
+    </style>
+    <style name="SurveyTheme" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="checkboxStyle">@style/SurveyCheckBoxStyle</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.GoogleMaterial.DayNight.Dialog" parent="@style/Theme.GoogleMaterial.Dark.Dialog">
+    </style>
+    <style name="Theme.GoogleMaterial.DayNight.NoActionBar" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar">
+    </style>
+    <style name="Theme.GoogleMaterial3.DayNight" parent="@style/Theme.GoogleMaterial3.Dark">
+    </style>
+    <style name="Theme.GoogleMaterial3.DayNight.BottomSheetDialog" parent="@style/Theme.GoogleMaterial3.Dark.BottomSheetDialog">
+    </style>
+    <style name="Theme.GoogleMaterial3.DayNight.Dialog" parent="@style/Theme.GoogleMaterial3.Dark.Dialog">
+    </style>
+    <style name="Theme.GoogleMaterial3.DayNight.NoActionBar" parent="@style/Theme.GoogleMaterial3.Dark.NoActionBar">
+    </style>
+    <style name="Theme.GoogleMaterial3Expressive.DayNight" parent="@style/Theme.GoogleMaterial3Expressive.Dark">
+    </style>
+    <style name="Theme.GoogleMaterial3Expressive.DayNight.NoActionBar" parent="@style/Theme.GoogleMaterial3Expressive.Dark.NoActionBar">
+    </style>
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark">
+    </style>
+    <style name="ThemeOverlay.Bugle.DynamicColors.DayNight" parent="@style/ThemeOverlay.Bugle.DynamicColors.Dark">
+    </style>
+    <style name="ThemeOverlay.Bugle.SamsungDynamic.DayNight" parent="@style/ThemeOverlay.Bugle.SamsungDynamic.Dark">
+    </style>
+    <style name="ThemeOverlay.BugleCoolRanch.DynamicColors.DayNight" parent="@style/ThemeOverlay.BugleCoolRanch.DynamicColors.Dark">
+    </style>
+    <style name="ThemeOverlay.SwipeActionSettingsActivity.DynamicColors.DayNight" parent="@style/ThemeOverlay.SwipeActionSettingsActivity.DynamicColors.Dark">
+    </style>
+</resources>

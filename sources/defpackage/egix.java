@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public abstract class egix {
+    public abstract emxc a();
+
+    public abstract int b();
+}

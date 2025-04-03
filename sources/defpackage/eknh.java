@@ -1,0 +1,11 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class eknh {
+    public final ekyo a;
+
+    public eknh(ekyo ekyoVar) {
+        this.a = ekyoVar;
+    }
+}

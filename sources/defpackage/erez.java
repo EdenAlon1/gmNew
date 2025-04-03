@@ -1,0 +1,59 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class erez extends eyfy implements eyht {
+    public static final erez a;
+    private static volatile eyhz h;
+    public int b;
+    public long c;
+    public long d;
+    public long e;
+    public long f;
+    public long g;
+
+    static {
+        erez erezVar = new erez();
+        a = erezVar;
+        eyfy.registerDefaultInstance(erez.class, erezVar);
+    }
+
+    private erez() {
+    }
+
+    @Override // defpackage.eyfy
+    protected final Object dynamicMethod(eyfx eyfxVar, Object obj, Object obj2) {
+        eyhz eyhzVar;
+        int ordinal = eyfxVar.ordinal();
+        if (ordinal == 0) {
+            return (byte) 1;
+        }
+        if (ordinal == 2) {
+            return newMessageInfo(a, "\u0004\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဂ\u0002\u0004ဂ\u0003\u0005ဂ\u0004", new Object[]{"b", "c", "d", "e", "f", "g"});
+        }
+        if (ordinal == 3) {
+            return new erez();
+        }
+        if (ordinal == 4) {
+            return new erey();
+        }
+        if (ordinal == 5) {
+            return a;
+        }
+        if (ordinal != 6) {
+            throw null;
+        }
+        eyhz eyhzVar2 = h;
+        if (eyhzVar2 != null) {
+            return eyhzVar2;
+        }
+        synchronized (erez.class) {
+            eyhzVar = h;
+            if (eyhzVar == null) {
+                eyhzVar = new eyfr(a);
+                h = eyhzVar;
+            }
+        }
+        return eyhzVar;
+    }
+}

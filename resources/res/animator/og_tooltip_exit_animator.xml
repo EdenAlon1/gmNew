@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@android:interpolator/linear"
+        android:duration="@integer/og_tooltip_alpha_duration_ms"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="contentAlpha"/>
+    <objectAnimator
+        android:interpolator="@interpolator/mtrl_fast_out_slow_in"
+        android:duration="@integer/og_tooltip_scale_rounded_rectangle_duration_ms"
+        android:startOffset="@integer/og_tooltip_exit_scale_rounded_rectangle_offset_ms"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="bubbleWidthScale"/>
+    <objectAnimator
+        android:interpolator="@android:interpolator/linear"
+        android:duration="@integer/og_tooltip_alpha_duration_ms"
+        android:startOffset="@integer/og_tooltip_exit_content_alpha_offset_ms"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="tooltipAlpha"/>
+</set>

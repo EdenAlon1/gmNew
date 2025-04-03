@@ -1,0 +1,56 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class sei extends eyfy implements eyht {
+    public static final sei a;
+    private static volatile eyhz e;
+    public eygr b = emptyProtobufList();
+    public String c = "";
+    public float d;
+
+    static {
+        sei seiVar = new sei();
+        a = seiVar;
+        eyfy.registerDefaultInstance(sei.class, seiVar);
+    }
+
+    private sei() {
+    }
+
+    @Override // defpackage.eyfy
+    protected final Object dynamicMethod(eyfx eyfxVar, Object obj, Object obj2) {
+        eyhz eyhzVar;
+        int ordinal = eyfxVar.ordinal();
+        if (ordinal == 0) {
+            return (byte) 1;
+        }
+        if (ordinal == 2) {
+            return newMessageInfo(a, "\u0004\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0001\u0000\u0001\u001b\u0003Ȉ\u0004\u0001", new Object[]{"b", seh.class, "c", "d"});
+        }
+        if (ordinal == 3) {
+            return new sei();
+        }
+        if (ordinal == 4) {
+            return new sed();
+        }
+        if (ordinal == 5) {
+            return a;
+        }
+        if (ordinal != 6) {
+            throw null;
+        }
+        eyhz eyhzVar2 = e;
+        if (eyhzVar2 != null) {
+            return eyhzVar2;
+        }
+        synchronized (sei.class) {
+            eyhzVar = e;
+            if (eyhzVar == null) {
+                eyhzVar = new eyfr(a);
+                e = eyhzVar;
+            }
+        }
+        return eyhzVar;
+    }
+}

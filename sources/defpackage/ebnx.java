@@ -1,0 +1,11 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final /* synthetic */ class ebnx {
+    public static void a(ebny ebnyVar, Runnable runnable) {
+        ebnyVar.b().run();
+        runnable.run();
+        ebnyVar.a().run();
+    }
+}

@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+abstract class sbn {
+    public abstract sco a();
+
+    public abstract Object b();
+}

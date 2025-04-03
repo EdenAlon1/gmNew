@@ -1,0 +1,13 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public interface apqy {
+    long a();
+
+    long b();
+
+    boolean c();
+
+    boolean e();
+}

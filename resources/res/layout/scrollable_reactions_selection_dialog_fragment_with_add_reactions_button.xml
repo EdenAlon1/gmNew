@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="none"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:overScrollMode="ifContentScrolls">
+    <LinearLayout
+        android:id="@+id/panel"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.apps.messaging.conversation.reactions.ui.selection.ReactionSelectionDialogRecyclerView
+            android:id="@+id/reactions_selection_dialog_recycler_view"
+            android:layoutAnimation="@anim/reaction_selection_layout_animation"
+            android:layout_width="@dimen/scrollable_reactions_selection_bar_recycler_view_width"
+            android:layout_height="@dimen/reaction_selection_item_size"
+            android:layout_marginStart="@dimen/reactions_selection_bar_margin"/>
+        <include
+            android:id="@+id/add_reactions_button"
+            android:layout_width="@dimen/reaction_selection_item_size"
+            android:layout_height="@dimen/reaction_selection_item_size"
+            android:layout_marginEnd="@dimen/reactions_selection_bar_margin"
+            layout="@layout/add_reactions_button"/>
+    </LinearLayout>
+</HorizontalScrollView>

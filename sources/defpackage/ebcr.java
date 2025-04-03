@@ -1,0 +1,30 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final class ebcr extends ebel {
+    public emxc a;
+    public emxc b;
+    private boolean c;
+    private byte d;
+
+    public ebcr() {
+        emux emuxVar = emux.a;
+        this.a = emuxVar;
+        this.b = emuxVar;
+    }
+
+    @Override // defpackage.ebel
+    public final ebem a() {
+        if (this.d == 1) {
+            return new ebcs(this.a, this.b, this.c);
+        }
+        throw new IllegalStateException("Missing required properties: hasCaptionStyle");
+    }
+
+    @Override // defpackage.ebel
+    public final void b(boolean z) {
+        this.c = z;
+        this.d = (byte) 1;
+    }
+}

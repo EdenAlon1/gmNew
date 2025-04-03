@@ -1,0 +1,55 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class ewmt extends eyfy implements eyht {
+    public static final ewmt a;
+    private static volatile eyhz d;
+    public int b;
+    public int c;
+
+    static {
+        ewmt ewmtVar = new ewmt();
+        a = ewmtVar;
+        eyfy.registerDefaultInstance(ewmt.class, ewmtVar);
+    }
+
+    private ewmt() {
+    }
+
+    @Override // defpackage.eyfy
+    protected final Object dynamicMethod(eyfx eyfxVar, Object obj, Object obj2) {
+        eyhz eyhzVar;
+        int ordinal = eyfxVar.ordinal();
+        if (ordinal == 0) {
+            return (byte) 1;
+        }
+        if (ordinal == 2) {
+            return newMessageInfo(a, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0004\u0002\u0004", new Object[]{"b", "c"});
+        }
+        if (ordinal == 3) {
+            return new ewmt();
+        }
+        if (ordinal == 4) {
+            return new ewms();
+        }
+        if (ordinal == 5) {
+            return a;
+        }
+        if (ordinal != 6) {
+            throw null;
+        }
+        eyhz eyhzVar2 = d;
+        if (eyhzVar2 != null) {
+            return eyhzVar2;
+        }
+        synchronized (ewmt.class) {
+            eyhzVar = d;
+            if (eyhzVar == null) {
+                eyhzVar = new eyfr(a);
+                d = eyhzVar;
+            }
+        }
+        return eyhzVar;
+    }
+}

@@ -1,0 +1,15 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class fbqw implements eygg {
+    public static final eygg a = new fbqw();
+
+    private fbqw() {
+    }
+
+    @Override // defpackage.eygg
+    public final boolean a(int i) {
+        return fbqx.b(i) != null;
+    }
+}

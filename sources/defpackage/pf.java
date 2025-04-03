@@ -1,0 +1,19 @@
+package defpackage;
+
+import android.support.v7.widget.ActionBarOverlayLayout;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class pf implements Runnable {
+    final /* synthetic */ ActionBarOverlayLayout a;
+
+    public pf(ActionBarOverlayLayout actionBarOverlayLayout) {
+        this.a = actionBarOverlayLayout;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        this.a.c();
+        this.a.i = this.a.c.animate().translationY(0.0f).setListener(this.a.j);
+    }
+}

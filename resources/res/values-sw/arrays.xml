@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>Furahia</item>
+        <item>Piga selfi ya kicheshi</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Ya kawaida</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Mapenzi</item>
+        <item>Ndiyo</item>
+        <item>Busu</item>
+        <item>Hujambo</item>
+        <item>Kumbatio</item>
+        <item>Karamu</item>
+        <item>Hasira</item>
+        <item>Kusisimka</item>
+        <item>Kwa heri</item>
+        <item>Kuangua kicheko</item>
+        <item>Kulia</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>Salamu ya kupunga mkono</item>
+        <item>Tuma selfi wakati wa kiamsha kinywa</item>
+        <item>Tuma selfi ya asubuhi</item>
+        <item>Tuma selfi ukiwa una usingizi</item>
+        <item>Tuma picha ya kahawa!</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>Tuma selfi ukiwa una usingizi</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>Tuma alama ya kupendezwa</item>
+        <item>Salamu ya kupunga mkono</item>
+        <item>Tuma selfi</item>
+        <item>Onyesha hali yako</item>
+        <item>Tuma sura ya kupumbaza</item>
+    </array>
+    <array name="love_strings">
+        <item>Tuma selfi</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Ndiyo</item>
+        <item>Hapana</item>
+        <item>Sawa</item>
+        <item>Hehe</item>
+        <item>Asante</item>
+        <item>Nakubali</item>
+        <item>Shwari</item>
+        <item>Niko njiani</item>
+        <item>Sawa, nitawasiliana nawe baadaye</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS iliyo na kiungo</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Tuma tena kama SMS kila wakati</item>
+        <item>Tuma tena kama SMS wakati unatumia mtandao wako wa kawaida</item>
+        <item>Niulize kabla ya kutuma tena</item>
+        <item>Usiwahi kutuma tena kama SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Tuma tena kama SMS/MMS kila wakati</item>
+        <item>Tuma tena kama SMS/MMS wakati unatumia mtandao wako wa kawaida</item>
+        <item>Niulize kabla ya kutuma tena</item>
+        <item>Usiwahi kutuma tena kama SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

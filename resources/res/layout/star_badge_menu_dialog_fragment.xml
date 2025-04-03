@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/panel"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="@dimen/star_badge_menu_width"
+    android:layout_height="@dimen/star_badge_menu_height"
+    android:importantForAccessibility="no">
+    <TextView
+        android:id="@+id/star_badge_menu_remove"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/star_badge_menu_item_height"
+        android:text="@string/star_badge_menu_remove_action"
+        android:drawablePadding="@dimen/star_badge_menu_item_drawable_padding"
+        android:importantForAccessibility="yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/StarBadgeMenuItemStyle"/>
+    <TextView
+        android:id="@+id/star_badge_menu_view_all"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/star_badge_menu_item_height"
+        android:text="@string/star_badge_menu_view_all_action"
+        android:drawablePadding="@dimen/star_badge_menu_item_drawable_padding"
+        android:importantForAccessibility="yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star_badge_menu_remove"
+        style="@style/StarBadgeMenuItemStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

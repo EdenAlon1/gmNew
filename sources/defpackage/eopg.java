@@ -1,0 +1,28 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class eopg {
+    public static int a(int i) {
+        if (i == 0) {
+            return 1;
+        }
+        if (i == 1) {
+            return 2;
+        }
+        if (i != 2) {
+            return i != 3 ? 0 : 4;
+        }
+        return 3;
+    }
+
+    public static String b(int i) {
+        return Integer.toString(i - 1);
+    }
+
+    public static /* synthetic */ void c(int i) {
+        if (i == 0) {
+            throw null;
+        }
+    }
+}

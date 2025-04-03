@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>I-capture ang iyong saya</item>
+        <item>Kumuha ng nakangiting selfie</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Pag-ibig</item>
+        <item>Oo</item>
+        <item>Halik</item>
+        <item>Kumusta</item>
+        <item>Yakap</item>
+        <item>Party</item>
+        <item>Galit</item>
+        <item>Nasasabik</item>
+        <item>Paalam</item>
+        <item>Lol</item>
+        <item>Umiiyak</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>Mag-hello</item>
+        <item>Magpadala ng selfie sa agahan</item>
+        <item>Magpadala ng selfie sa umaga</item>
+        <item>Magpadala ng inaantok na selfie</item>
+        <item>Magpadala ng selfie nang may kape!</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>Magpadala ng inaantok na selfie</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>Magpadala ng thumbs up</item>
+        <item>Mag-hello</item>
+        <item>Magpadala ng selfie</item>
+        <item>Ipakita ang mood mo</item>
+        <item>Magpadala ng makulit na mukha</item>
+    </array>
+    <array name="love_strings">
+        <item>Magpadala ng selfie</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Oo</item>
+        <item>Hindi</item>
+        <item>OK</item>
+        <item>Hehe</item>
+        <item>Salamat</item>
+        <item>Sang-ayon ako</item>
+        <item>Ayos</item>
+        <item>Papunta na ako</item>
+        <item>OK, balikan na lang kita mamaya</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS na may link</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Palaging muling ipadala bilang SMS</item>
+        <item>Muling ipadala ang SMS kapag hindi naka-roaming</item>
+        <item>Tanungin bago muling ipadala</item>
+        <item>Kailanman ay huwag ipadala bilang SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Palaging muling ipadala bilang SMS/MMS</item>
+        <item>Muling ipadala bilang SMS/MMS kapag hindi naka-roaming</item>
+        <item>Tanungin bago muling ipadala</item>
+        <item>Kailanman ay huwag ipadala bilang SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

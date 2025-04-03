@@ -1,0 +1,19 @@
+package defpackage;
+
+import com.google.common.util.concurrent.ListenableFuture;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+final class fgfy implements ffji {
+    final /* synthetic */ ListenableFuture a;
+
+    public fgfy(ListenableFuture listenableFuture) {
+        this.a = listenableFuture;
+    }
+
+    @Override // defpackage.ffji
+    public final /* bridge */ /* synthetic */ Object invoke(Object obj) {
+        this.a.cancel(false);
+        return ffcu.a;
+    }
+}

@@ -1,0 +1,78 @@
+package defpackage;
+
+import android.content.Context;
+import android.content.ContextWrapper;
+import com.google.android.apps.messaging.R;
+import defpackage.fbal;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class aepp extends aepw implements ekhu {
+    private aepr a;
+    private Context b;
+
+    @Deprecated
+    public aepp(Context context) {
+        super(context);
+        c();
+    }
+
+    private final void c() {
+        if (this.a == null) {
+            try {
+                this.a = ((aept) aX()).F();
+                ellq c = ellg.c(this);
+                c.b = this;
+                c.a(c.b.findViewById(R.id.close_button), new aeps(this.a));
+                Context context = getContext();
+                while ((context instanceof ContextWrapper) && !(context instanceof fbas) && !(context instanceof fbal.a) && !(context instanceof ekkn)) {
+                    context = ((ContextWrapper) context).getBaseContext();
+                }
+                if (!(context instanceof ekke)) {
+                    throw new IllegalStateException(a.L(this));
+                }
+            } catch (ClassCastException e) {
+                throw new IllegalStateException("Missing entry point. If you're in a test with explicit entry points specified in your @TestRoot, check that you're not missing the one for this class.", e);
+            }
+        }
+    }
+
+    @Override // defpackage.ekhu
+    public final Class F() {
+        return aepr.class;
+    }
+
+    @Override // defpackage.ekhu
+    /* renamed from: a, reason: merged with bridge method [inline-methods] */
+    public final aepr H() {
+        aepr aeprVar = this.a;
+        if (aeprVar != null) {
+            return aeprVar;
+        }
+        throw new IllegalStateException("peer() called before initialized.");
+    }
+
+    @Override // android.view.ViewGroup, android.view.View
+    public final void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        if (ekkw.a(getContext())) {
+            Context a = ekkv.a(this);
+            Context context = this.b;
+            if (context == null) {
+                this.b = a;
+                return;
+            }
+            boolean z = true;
+            if (context != a && !ekkv.b(context)) {
+                z = false;
+            }
+            emxf.m(z, "onAttach called multiple times with different parent Contexts");
+        }
+    }
+
+    @Override // android.view.View
+    protected final void onFinishInflate() {
+        super.onFinishInflate();
+        c();
+    }
+}

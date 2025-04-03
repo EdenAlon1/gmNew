@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="?attr/colorPrimaryBrandNonIcon"
+    android:layout_gravity="center"
+    android:id="@+id/delete_all_desktops_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:text="@string/qr_delete_all_paired_desktops_button_text"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    android:layout_marginStart="@dimen/qr_simplified_welcome_banner_list_header_margin"
+    style="@style/Widget.GoogleMaterial.Button.TextButton"/>

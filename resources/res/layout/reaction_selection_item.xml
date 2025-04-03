@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/reaction_frame"
+    android:layout_width="@dimen/reaction_selection_item_size"
+    android:layout_height="@dimen/reaction_selection_item_size"
+    android:importantForAccessibility="yes">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@+id/reaction_background"
+        android:background="@drawable/reaction_item_ripple_background"
+        android:layout_width="@dimen/reaction_selection_item_background_size"
+        android:layout_height="@dimen/reaction_selection_item_background_size"
+        android:importantForAccessibility="no">
+        <com.google.android.apps.messaging.ui.animation.illustration.IllustrationViewStub
+            android:layout_gravity="center"
+            android:id="@+id/reaction_image"
+            android:background="@null"
+            android:layout_width="@dimen/reaction_selection_item_image_size"
+            android:layout_height="@dimen/reaction_selection_item_image_size"
+            android:importantForAccessibility="no"/>
+    </FrameLayout>
+</FrameLayout>

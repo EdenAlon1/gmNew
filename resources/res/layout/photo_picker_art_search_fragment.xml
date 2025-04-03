@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.material.opensearchbar.OpenSearchView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photo_picker_search_results_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="@string/op3_search_hint">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/photo_picker_interests_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="16dp">
+        <TextView
+            android:textAppearance="?attr/textAppearanceOverline"
+            android:textColor="?attr/colorSurfaceInverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/op3_search_interests_hint"/>
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/photo_picker_interest_chip_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:chipSpacingHorizontal="8dp"
+            app:chipSpacingVertical="0dp"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/photo_picker_search_suggestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="48dp"/>
+    <com.google.android.libraries.user.profile.photopicker.common.view.error.FullscreenErrorView
+        android:id="@+id/photo_picker_error_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.google.android.libraries.material.opensearchbar.OpenSearchView>

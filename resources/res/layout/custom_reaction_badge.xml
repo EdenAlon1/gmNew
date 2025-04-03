@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/reaction_badge_width"
+    android:layout_height="@dimen/reaction_badge_height"
+    android:importantForAccessibility="yes">
+    <FrameLayout
+        android:layout_gravity="start"
+        android:background="@drawable/reaction_badge_background"
+        android:layout_width="@dimen/reaction_badge_width"
+        android:layout_height="@dimen/reaction_badge_height"
+        android:elevation="@dimen/reaction_badge_elevation"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubhead1"
+        android:layout_gravity="end"
+        android:id="@+id/reaction_count"
+        android:background="@drawable/reaction_badge_background"
+        android:visibility="gone"
+        android:layout_width="@dimen/reaction_badge_count_size"
+        android:layout_height="@dimen/reaction_badge_count_size"
+        android:elevation="@dimen/reaction_badge_elevation"
+        style="@style/ReactionBadgeCountTextStyle"/>
+    <FrameLayout
+        android:layout_gravity="start"
+        android:layout_width="@dimen/reaction_badge_width"
+        android:layout_height="@dimen/reaction_badge_height"
+        android:elevation="@dimen/reaction_badge_elevation">
+        <androidx.emoji.widget.EmojiAppCompatTextView
+            android:layout_gravity="center"
+            android:id="@+id/reaction"
+            android:layout_width="@dimen/reaction_badge_symbol_size"
+            android:layout_height="@dimen/reaction_badge_symbol_size"
+            android:includeFontPadding="false"
+            app:autoSizeTextType="uniform"/>
+    </FrameLayout>
+</FrameLayout>

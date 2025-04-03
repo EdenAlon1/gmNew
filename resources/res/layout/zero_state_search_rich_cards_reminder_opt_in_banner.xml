@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zero_state_search_rich_card_reminder_opt_in_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/zero_state_search_location_card_margin_bottom"
+    app:cardBackgroundColor="?attr/colorOnSurfaceInverse"
+    app:strokeColor="?attr/colorOutlineVariant">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/zero_state_search_rich_cards_reminder_opt_in_banner_text_size"
+            android:textColor="?attr/colorOnSurface"
+            android:gravity="center_vertical"
+            android:layout_gravity="start"
+            android:id="@+id/zss_reminder_opt_in_banner_text"
+            android:paddingTop="@dimen/zero_state_search_reminder_rich_cards_text_padding_vertical"
+            android:paddingBottom="@dimen/zero_state_search_reminder_rich_cards_text_padding_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/accessibility_min_height_target"
+            android:text="@string/zero_state_search_rich_cards_reminder_opt_in_banner_text"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/zero_state_search_reminder_rich_cards_text_margin_start"/>
+        <ImageButton
+            android:layout_gravity="end|top"
+            android:id="@+id/zss_reminder_opt_in_banner_dismiss_button"
+            android:background="@null"
+            android:layout_width="@dimen/zero_state_search_box_button_width_height"
+            android:layout_height="@dimen/zero_state_search_box_button_width_height"
+            android:src="@drawable/quantum_ic_close_18"
+            android:tint="?attr/colorOnSurface"
+            android:contentDescription="@string/zss_reminder_banner_dismiss_button_content_description"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

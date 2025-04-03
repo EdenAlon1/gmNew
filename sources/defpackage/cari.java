@@ -1,0 +1,90 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class cari {
+    public final ffbr A;
+    public final ffbr B;
+    public final ffbr a;
+    public final ffbr b;
+    public final ffbr c;
+    public final ffbr d;
+    public final ffbr e;
+    public final ffbr f;
+    public final ffbr g;
+    public final ffbr h;
+    public final ffbr i;
+    public final ffbr j;
+    public final ffbr k;
+    public final ffbr l;
+    public final ffbr m;
+    public final ffbr n;
+    public final ffbr o;
+    public final ffbr p;
+    public final ffbr q;
+    public final ffbr r;
+    public final ffbr s;
+    public final ffbr t;
+    public final ffbr u;
+    public final ffbr v;
+    public final ffbr w;
+    public final ffbr x;
+    public final ffbr y;
+    public final ffbr z;
+
+    public cari(ffbr ffbrVar, ffbr ffbrVar2, ffbr ffbrVar3, ffbr ffbrVar4, ffbr ffbrVar5, ffbr ffbrVar6, ffbr ffbrVar7, ffbr ffbrVar8, ffbr ffbrVar9, ffbr ffbrVar10, ffbr ffbrVar11, ffbr ffbrVar12, ffbr ffbrVar13, ffbr ffbrVar14, ffbr ffbrVar15, ffbr ffbrVar16, ffbr ffbrVar17, ffbr ffbrVar18, ffbr ffbrVar19, ffbr ffbrVar20, ffbr ffbrVar21, ffbr ffbrVar22, ffbr ffbrVar23, ffbr ffbrVar24, ffbr ffbrVar25, ffbr ffbrVar26, ffbr ffbrVar27, ffbr ffbrVar28) {
+        ffbrVar.getClass();
+        this.a = ffbrVar;
+        this.b = ffbrVar2;
+        ffbrVar3.getClass();
+        this.c = ffbrVar3;
+        ffbrVar4.getClass();
+        this.d = ffbrVar4;
+        ffbrVar5.getClass();
+        this.e = ffbrVar5;
+        ffbrVar6.getClass();
+        this.f = ffbrVar6;
+        ffbrVar7.getClass();
+        this.g = ffbrVar7;
+        ffbrVar8.getClass();
+        this.h = ffbrVar8;
+        ffbrVar9.getClass();
+        this.i = ffbrVar9;
+        ffbrVar10.getClass();
+        this.j = ffbrVar10;
+        ffbrVar11.getClass();
+        this.k = ffbrVar11;
+        ffbrVar12.getClass();
+        this.l = ffbrVar12;
+        ffbrVar13.getClass();
+        this.m = ffbrVar13;
+        ffbrVar14.getClass();
+        this.n = ffbrVar14;
+        ffbrVar15.getClass();
+        this.o = ffbrVar15;
+        ffbrVar16.getClass();
+        this.p = ffbrVar16;
+        ffbrVar17.getClass();
+        this.q = ffbrVar17;
+        ffbrVar18.getClass();
+        this.r = ffbrVar18;
+        ffbrVar19.getClass();
+        this.s = ffbrVar19;
+        ffbrVar20.getClass();
+        this.t = ffbrVar20;
+        this.u = ffbrVar21;
+        ffbrVar22.getClass();
+        this.v = ffbrVar22;
+        this.w = ffbrVar23;
+        ffbrVar24.getClass();
+        this.x = ffbrVar24;
+        ffbrVar25.getClass();
+        this.y = ffbrVar25;
+        ffbrVar26.getClass();
+        this.z = ffbrVar26;
+        ffbrVar27.getClass();
+        this.A = ffbrVar27;
+        ffbrVar28.getClass();
+        this.B = ffbrVar28;
+    }
+}

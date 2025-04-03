@@ -1,0 +1,10 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class ezjo implements ffaj {
+    @Override // defpackage.ffaj
+    public final /* synthetic */ ffak a(fdxk fdxkVar, fdxj fdxjVar) {
+        return new ezjp(fdxkVar, fdxjVar);
+    }
+}

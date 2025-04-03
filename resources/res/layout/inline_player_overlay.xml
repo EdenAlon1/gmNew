@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.attachment.video.inlineplayer.InlinePlayerCornersView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inline_player_corners"
+    android:background="?attr/colorPrimaryBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/inline_player_play_button"
+        android:visibility="gone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/quantum_gm_ic_play_circle_filled_white_24"
+        android:importantForAccessibility="no"/>
+    <ImageButton
+        android:layout_gravity="bottom|right"
+        android:id="@+id/inline_fullscreen_button"
+        android:background="@android:color/transparent"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/quantum_gm_ic_fullscreen_white_24"
+        android:contentDescription="@string/fullscreen_button_description"/>
+</com.google.android.apps.messaging.ui.attachment.video.inlineplayer.InlinePlayerCornersView>

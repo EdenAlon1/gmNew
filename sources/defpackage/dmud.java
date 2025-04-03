@@ -1,0 +1,25 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+final class dmud implements ffjm {
+    final /* synthetic */ dmvg a;
+
+    public dmud(dmvg dmvgVar) {
+        this.a = dmvgVar;
+    }
+
+    @Override // defpackage.ffjm
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        hfd hfdVar = (hfd) obj;
+        if ((((Number) obj2).intValue() & 3) == 2 && hfdVar.I()) {
+            hfdVar.s();
+        } else {
+            doas doasVar = this.a.h;
+            if (doasVar != null) {
+                dmuy.a(null, doasVar.c, doasVar.a, false, hfdVar, 0, 9);
+            }
+        }
+        return ffcu.a;
+    }
+}

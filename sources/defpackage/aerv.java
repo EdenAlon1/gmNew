@@ -1,0 +1,10 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class aerv extends aerw {
+    public static final aerv a = new aerv();
+
+    private aerv() {
+    }
+}

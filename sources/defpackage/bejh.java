@@ -1,0 +1,92 @@
+package defpackage;
+
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.ConversationIdType;
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.MessageIdType;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class bejh {
+    public static final bejf a(ConversationIdType conversationIdType, cpxu cpxuVar, byyy byyyVar, byyt byytVar, ayhd ayhdVar, Optional optional, cfmh cfmhVar, MessageIdType messageIdType, ardn ardnVar, ConversationIdType conversationIdType2, dtrr dtrrVar) {
+        bejg bejgVar = new bejg();
+        bejgVar.aC(dtrrVar.aB());
+        bejgVar.a = conversationIdType;
+        bejgVar.b = cpxuVar;
+        bejgVar.c = null;
+        bejgVar.d = byyyVar;
+        bejgVar.e = null;
+        bejgVar.f = null;
+        bejgVar.g = null;
+        bejgVar.h = null;
+        bejgVar.i = false;
+        bejgVar.j = null;
+        bejgVar.k = null;
+        bejgVar.l = null;
+        bejgVar.m = null;
+        bejgVar.n = 0;
+        bejgVar.o = byytVar;
+        bejgVar.p = 0L;
+        bejgVar.q = null;
+        bejgVar.r = -1L;
+        bejgVar.s = null;
+        bejgVar.t = null;
+        bejgVar.u = null;
+        bejgVar.v = null;
+        bejgVar.w = 0;
+        bejgVar.x = true;
+        bejgVar.y = null;
+        bejgVar.z = true;
+        bejgVar.A = false;
+        bejgVar.B = 0;
+        bejgVar.C = -1L;
+        bejgVar.D = 0;
+        bejgVar.E = 0;
+        bejgVar.F = 0;
+        bejgVar.G = false;
+        bejgVar.H = false;
+        bejgVar.I = null;
+        bejgVar.J = 0L;
+        bejgVar.K = null;
+        bejgVar.L = null;
+        bejgVar.M = null;
+        bejgVar.N = true;
+        bejgVar.O = false;
+        bejgVar.P = ayhdVar;
+        bejgVar.Q = optional;
+        bejgVar.R = false;
+        bejgVar.S = false;
+        bejgVar.T = cfmhVar;
+        bejgVar.U = 0;
+        bejgVar.V = messageIdType;
+        bejgVar.W = 0L;
+        bejgVar.X = 0L;
+        bejgVar.Y = 0;
+        bejgVar.Z = 0;
+        bejgVar.aa = false;
+        bejgVar.ab = 0;
+        bejgVar.ac = 0;
+        bejgVar.ad = -1;
+        bejgVar.ae = null;
+        bejgVar.af = -2;
+        bejgVar.ag = null;
+        bejgVar.ah = null;
+        bejgVar.ai = null;
+        bejgVar.aj = -1L;
+        bejgVar.ak = 0L;
+        bejgVar.al = null;
+        bejgVar.am = null;
+        bejgVar.an = null;
+        bejgVar.ao = null;
+        bejgVar.ap = null;
+        bejgVar.aq = null;
+        bejgVar.ar = ardnVar;
+        bejgVar.as = null;
+        bejgVar.at = 0L;
+        bejgVar.au = 0;
+        bejgVar.av = null;
+        bejgVar.aw = 0L;
+        bejgVar.ax = conversationIdType2;
+        bejgVar.cK = dtrrVar.aC();
+        return bejgVar;
+    }
+}

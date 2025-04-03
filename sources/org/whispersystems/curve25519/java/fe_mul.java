@@ -1,0 +1,117 @@
+package org.whispersystems.curve25519.java;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public class fe_mul {
+    public static void fe_mul(int[] iArr, int[] iArr2, int[] iArr3) {
+        long[] fe_mul1 = fe_mul1(iArr2, iArr3);
+        long j = fe_mul1[0];
+        long j2 = fe_mul1[1];
+        long j3 = fe_mul1[2];
+        long j4 = fe_mul1[3];
+        long j5 = fe_mul1[4];
+        long j6 = fe_mul1[5];
+        long j7 = fe_mul1[6];
+        long j8 = fe_mul1[7];
+        long j9 = (j + 33554432) >> 26;
+        long j10 = j2 + j9;
+        long j11 = j - (j9 << 26);
+        long j12 = (j5 + 33554432) >> 26;
+        long j13 = j6 + j12;
+        long j14 = (j10 + 16777216) >> 25;
+        long j15 = j3 + j14;
+        long j16 = (j13 + 16777216) >> 25;
+        long j17 = j7 + j16;
+        long j18 = (j15 + 33554432) >> 26;
+        long j19 = j4 + j18;
+        long j20 = (j17 + 33554432) >> 26;
+        long j21 = j8 + j20;
+        long j22 = (j21 + 16777216) >> 25;
+        long j23 = fe_mul1[8] + j22;
+        long j24 = (j23 + 33554432) >> 26;
+        long j25 = fe_mul1[9] + j24;
+        long j26 = (j25 + 16777216) >> 25;
+        long j27 = j11 + (19 * j26);
+        long j28 = (j27 + 33554432) >> 26;
+        iArr[0] = (int) (j27 - (j28 << 26));
+        iArr[1] = (int) ((j10 - (j14 << 25)) + j28);
+        iArr[2] = (int) (j15 - (j18 << 26));
+        long j29 = (j19 + 16777216) >> 25;
+        iArr[3] = (int) (j19 - (j29 << 25));
+        long j30 = (j5 - (j12 << 26)) + j29;
+        long j31 = (j30 + 33554432) >> 26;
+        iArr[4] = (int) (j30 - (j31 << 26));
+        iArr[5] = (int) ((j13 - (j16 << 25)) + j31);
+        iArr[6] = (int) (j17 - (j20 << 26));
+        iArr[7] = (int) (j21 - (j22 << 25));
+        iArr[8] = (int) (j23 - (j24 << 26));
+        iArr[9] = (int) (j25 - (j26 << 25));
+    }
+
+    public static long[] fe_mul1(int[] iArr, int[] iArr2) {
+        int i = iArr[0];
+        int i2 = iArr[1];
+        int i3 = iArr[2];
+        int i4 = iArr[3];
+        int i5 = iArr[4];
+        int i6 = iArr[5];
+        int i7 = iArr[6];
+        int i8 = iArr[7];
+        int i9 = iArr[8];
+        int i10 = iArr[9];
+        int i11 = iArr2[0];
+        int i12 = iArr2[1];
+        int i13 = i12 * 19;
+        int i14 = iArr2[2];
+        int i15 = iArr2[3];
+        int i16 = i15 * 19;
+        int i17 = iArr2[4];
+        int i18 = iArr2[5];
+        int i19 = i18 * 19;
+        int i20 = iArr2[6];
+        int i21 = i20 * 19;
+        int i22 = iArr2[7];
+        int i23 = i22 * 19;
+        int i24 = iArr2[8];
+        int i25 = iArr2[9];
+        int i26 = i6 + i6;
+        int i27 = i10 + i10;
+        long j = i;
+        long j2 = i11;
+        long j3 = i12;
+        long j4 = i14;
+        long j5 = i15;
+        long j6 = i17;
+        long j7 = i18;
+        long j8 = i20;
+        long j9 = i22;
+        long j10 = i24;
+        long j11 = i2;
+        long j12 = i3;
+        long j13 = i4;
+        long j14 = i5;
+        long j15 = i6;
+        long j16 = i7;
+        long j17 = i8;
+        long j18 = i9;
+        long j19 = i10;
+        long j20 = i25 * 19;
+        long j21 = i2 + i2;
+        long j22 = i24 * 19;
+        long j23 = j * j2;
+        long j24 = i23;
+        long j25 = i4 + i4;
+        long j26 = j12 * j22;
+        long j27 = i21;
+        long j28 = i19;
+        long j29 = i26;
+        long j30 = j14 * j27;
+        long j31 = i17 * 19;
+        long j32 = i16;
+        long j33 = i8 + i8;
+        long j34 = j16 * j31;
+        long j35 = i14 * 19;
+        long j36 = i27;
+        return new long[]{j23 + (j21 * j20) + j26 + (j25 * j24) + j30 + (j29 * j28) + j34 + (j33 * j32) + (j18 * j35) + (i13 * j36), (j * j3) + (j11 * j2) + (j12 * j20) + (j13 * j22) + (j14 * j24) + (j15 * j27) + (j16 * j28) + (j17 * j31) + (j18 * j32) + (j35 * j19), (j * j4) + (j21 * j3) + (j12 * j2) + (j25 * j20) + (j14 * j22) + (j29 * j24) + (j16 * j27) + (j33 * j28) + (j18 * j31) + (j36 * j32), (j * j5) + (j11 * j4) + (j12 * j3) + (j13 * j2) + (j14 * j20) + (j15 * j22) + (j16 * j24) + (j17 * j27) + (j18 * j28) + (j19 * j31), (j * j6) + (j21 * j5) + (j12 * j4) + (j25 * j3) + (j14 * j2) + (j29 * j20) + (j16 * j22) + (j33 * j24) + (j18 * j27) + (j36 * j28), (j * j7) + (j11 * j6) + (j12 * j5) + (j13 * j4) + (j14 * j3) + (j15 * j2) + (j16 * j20) + (j17 * j22) + (j18 * j24) + (j19 * j27), (j * j8) + (j21 * j7) + (j12 * j6) + (j25 * j5) + (j14 * j4) + (j29 * j3) + (j16 * j2) + (j33 * j20) + (j18 * j22) + (j36 * j24), (j * j9) + (j11 * j8) + (j12 * j7) + (j13 * j6) + (j14 * j5) + (j15 * j4) + (j16 * j3) + (j17 * j2) + (j18 * j20) + (j22 * j19), (j * j10) + (j21 * j9) + (j12 * j8) + (j25 * j7) + (j14 * j6) + (j29 * j5) + (j16 * j4) + (j33 * j3) + (j18 * j2) + (j36 * j20), (i25 * j) + (j11 * j10) + (j9 * j12) + (j8 * j13) + (j7 * j14) + (j6 * j15) + (j5 * j16) + (j4 * j17) + (j3 * j18) + (j2 * j19)};
+    }
+}

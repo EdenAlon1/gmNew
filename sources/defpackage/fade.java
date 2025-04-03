@@ -1,0 +1,18 @@
+package defpackage;
+
+import com.google.research.xeno.effect.Effect;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+final class fade implements Effect.NativeLoadCallback {
+    final /* synthetic */ fadg a;
+
+    public fade(fadg fadgVar) {
+        this.a = fadgVar;
+    }
+
+    @Override // com.google.research.xeno.effect.Effect.NativeLoadCallback
+    public final void onCompletion(long j, String str) {
+        Effect.b(this.a, j != 0 ? new Effect(j) : null, str);
+    }
+}

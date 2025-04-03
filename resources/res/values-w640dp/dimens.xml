@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_picker_single_screen_columns">4.4</dimen>
+</resources>

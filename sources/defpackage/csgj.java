@@ -1,0 +1,125 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes8.dex */
+public final class csgj {
+    public static final cfup A;
+    public static final cfup B;
+    public static final cfup C;
+    public static final cfup D;
+    public static final cfup E;
+    public static final cfup F;
+    public static final emyl G;
+    public static final emyl H;
+    public static final cfup I;
+    public static final cfup J;
+    public static final cfup K;
+    public static final cfup L;
+    public static final emyl M;
+    public static final cfup N;
+    public static final cfup O;
+    public static final cfup P;
+    public static final cfup Q;
+    public static final cfup R;
+    public static final cfup S;
+    public static final emyl T;
+    public static final emyl U;
+    public static final emyl V;
+    public static final emyl W;
+    public static final emyl X;
+    public static final emyl Y;
+    public static final emyl Z;
+    public static final cfup a;
+    public static final cfup b;
+    public static final cfup c;
+    public static final cfup d;
+    public static final cfup e;
+    public static final cfup f;
+    public static final cfup g;
+    public static final cfup h;
+    public static final cfup i;
+    public static final cfup j;
+    public static final emyl k;
+    public static final emyl l;
+    public static final emyl m;
+    public static final emyl n;
+    public static final emyl o;
+    public static final emyl p;
+    public static final cfup q;
+    public static final emyl r;
+    public static final emyl s;
+    public static final emyl t;
+    public static final emyl u;
+    public static final emyl v;
+    public static final emyl w;
+    public static final emyl x;
+    public static final emyl y;
+    public static final emyl z;
+
+    static {
+        cfvl.h(cfvl.b, "fi_transfer_to_messages_learn_more_url", "https://support.google.com/fi/?p=transfertomessages");
+        a = cfvl.i(cfvl.b, "enable_growthkit_flow", false);
+        b = cfvl.e(cfvl.b, "max_page_restore_attempts", 13);
+        c = cfvl.e(cfvl.b, "cms_backup_network_failure_max_retries", 26);
+        d = cfvl.e(cfvl.b, "cms_backup_max_retries", 22);
+        e = cfvl.e(cfvl.b, "cms_media_sync_max_retries", 3);
+        f = cfvl.e(cfvl.b, "cms_media_backup_max_attempts_in_pwq", 7);
+        g = cfvl.i(cfvl.b, "enable_cms_bnr_settings", false);
+        h = cfvl.h(cfvl.b, "fi_transfer_to_messages_non_hangouts_learn_more_url", "https://support.google.com/fi/?p=transfertomessages");
+        i = cfvl.h(cfvl.b, "fi_stop_syncing_learn_more_url", "https://support.google.com/fi/?p=stopsyncing");
+        j = cfvl.h(cfvl.b, "fi_turn_off_chat_features_learn_more_url", "https://support.google.com/fi/?p=turnoffchatfeatures");
+        k = cfvl.w("cms_enable_key_retrieval_client_in_debug_menu");
+        l = cfvl.w("cms_enable_requires_battery_not_low");
+        m = cfvl.w("cms_fi_delete_button");
+        n = cfvl.w("cms_check_for_missing_restore_work");
+        cfvl.w("mark_backup_scheduled_life_cycle");
+        o = cfvl.w("record_initial_sync_progress");
+        p = cfvl.w("enable_bnr_storage_card");
+        q = cfvl.i(cfvl.b, "redirect_user_to_new_backup_settings_screen", false);
+        r = cfvl.w("cms_prompt_fi_sign_in");
+        cfvl.f(cfvl.b, "fi_account_status_tracker_synclet_run_interval_ms", 86400000L);
+        s = cfvl.w("cms_include_message_metadata_fields");
+        t = cfvl.w("show_backup_promo_popup");
+        u = cfvl.w("enable_suppressing_cms_box_events");
+        v = cfvl.w("cms_backup_rcs_conference_uri");
+        w = cfvl.w("cms_copy_multi_device_and_initial_sync_status");
+        x = cfvl.w("enable_calling_get_user_storage_info");
+        y = cfvl.w("enable_pausing_backup_for_storage_info");
+        z = cfvl.w("bnr_initial_sync_media_uses_battery_charging_constraints");
+        cfvl.i(cfvl.b, "enable_exposed_apis_for_bbg1", false);
+        cfvl.i(cfvl.b, "enable_bnr_auto_enablement", false);
+        A = cfvl.f(cfvl.b, "notification_received_timestamp_threshold", 86400000L);
+        B = cfvl.c(cfvl.b, "user_cloud_storage_usage_threshold", 0.99d);
+        C = cfvl.e(cfvl.b, "cms_backfill_missing_field_query_page_size", 50);
+        D = cfvl.e(cfvl.b, "max_cms_deleted_messages_buffer_size", 50);
+        E = cfvl.f(cfvl.b, "cms_deleted_messages_buffer_expiration_duration_in_days", 7L);
+        F = cfvl.f(cfvl.b, "cms_dependency_cache_expiration_duration_in_days", 7L);
+        cfvl.i(cfvl.b, "locally_restored_media_deletion_kill_switch", false);
+        G = cfvl.w("upload_media_in_backup_delegate_for_incremental_backup");
+        H = cfvl.w("enable_user_reference_bnr");
+        I = cfvl.e(cfvl.b, "cms_restore_top_conversations_limit", 15);
+        J = cfvl.e(cfvl.b, "linked_account_async_get_timeout", 500);
+        K = cfvl.e(cfvl.b, "linked_account_async_get_timeout", 30000);
+        cfvl.f(cfvl.b, "cms_d2d_feature_manager_stale_timestamp_threshold_in_days", 24L);
+        L = cfvl.f(cfvl.b, "cms_delta_sync_manager_stale_timestamp_threshold_in_days", 24L);
+        M = cfvl.w("use_foreground_service_during_restore");
+        N = cfvl.f(cfvl.b, "max_restore_foreground_service_duration_ms", 900000L);
+        O = cfvl.f(cfvl.b, "max_media_backup_foreground_service_duration_ms", 900000L);
+        P = cfvl.f(cfvl.b, "slow_restore_page_threshold_ms", 300000L);
+        Q = cfvl.i(cfvl.b, "enable_report_issue_notification_for_restore_failures", false);
+        R = cfvl.e(cfvl.b, "report_issue_notification_dlq_count_threshold", 5);
+        S = cfvl.f(cfvl.b, "report_issue_notification_cooldown_ms", 3600000L);
+        T = cfvl.w("enable_keep_alive_strategy_pwq_v2");
+        U = cfvl.w("enable_restore_top_conversations_and_messages");
+        V = cfvl.w("fi_normalize_phone_number");
+        cfvl.w("enable_bnr_from_esi_entitlement_flag");
+        W = cfvl.w("use_persistence_id_for_cms_deduplication");
+        X = cfvl.w("use_persistence_id_for_cms_tombstone_deduplication");
+        Y = cfvl.w("enable_delayed_incremental_backups");
+        Z = cfvl.w("enable_starlight_for_backups");
+    }
+
+    public static boolean a() {
+        return ((Boolean) g.e()).booleanValue() && !eovw.GO_BUILD.equals(csjc.a);
+    }
+}

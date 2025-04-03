@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.samsung.appbar.ModifiedScrollingAppBarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarLayout"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0dp"
+    app:liftOnScroll="false"
+    style="@style/ExpandableAppBarStyleCoolRanch">
+    <com.google.android.apps.messaging.samsung.appbar.ExpandableAppBarView
+        android:id="@+id/collapsing_toolbar"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentScrim="?attr/colorSurfaceContainer"
+        app:layout_scrollFlags="snap|exitUntilCollapsed|scroll"
+        app:statusBarScrim="?attr/colorSurfaceContainer"
+        app:titleEnabled="false"
+        app:toolbarId="@+id/toolbar">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@+id/big_lockup"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_collapseMode="parallax">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/big_icon"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/googleg_standard_color_24"/>
+            <TextView
+                android:textSize="38sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:maxLines="1"
+                android:letterSpacing="-0.02"
+                app:autoSizePresetSizes="@array/extended_appbar_title_text_sizes"
+                app:autoSizeTextType="uniform"
+                style="@style/BugleToolbarTitleTextStyle"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/toolbar_branded"/>
+        </FrameLayout>
+    </com.google.android.apps.messaging.samsung.appbar.ExpandableAppBarView>
+</com.google.android.apps.messaging.samsung.appbar.ModifiedScrollingAppBarView>

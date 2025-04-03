@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.preference.SwitchPreferenceCompat
+        android:persistent="false"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:title="@string/auto_delete_otps"
+        android:key="@string/auto_delete_otps_key"
+        android:summary="@string/auto_delete_otps_summary"
+        android:defaultValue="true"
+        app:allowDividerAbove="true"/>
+</PreferenceScreen>

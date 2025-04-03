@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.search.homeview.CategoryGroupItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/zero_state_search_category_group_item_bg"
+    android:paddingTop="@dimen/zero_state_search_content_group_item_vertical_padding_v2"
+    android:paddingBottom="@dimen/zero_state_search_content_group_item_vertical_padding_v2"
+    android:layout_width="@dimen/zero_state_search_content_group_item_width"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:minHeight="@dimen/zero_state_search_content_group_item_min_height"
+    android:layout_marginEnd="@dimen/zero_state_search_content_groups_horizontal_spacing">
+    <ImageView
+        android:id="@+id/content_group_item_icon"
+        android:paddingBottom="@dimen/zero_state_search_content_group_item_icon_padding_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="?attr/colorPrimaryBrandIcon"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/content_group_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textIsSelectable="false"
+        style="@style/ZeroStateSearchCategoryGroupLabel"/>
+</com.google.android.apps.messaging.ui.search.homeview.CategoryGroupItemView>

@@ -1,0 +1,54 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class eshh extends eyfy implements eyht {
+    public static final eshh a;
+    private static volatile eyhz c;
+    public eyhm b = eyhm.a;
+
+    static {
+        eshh eshhVar = new eshh();
+        a = eshhVar;
+        eyfy.registerDefaultInstance(eshh.class, eshhVar);
+    }
+
+    private eshh() {
+    }
+
+    @Override // defpackage.eyfy
+    protected final Object dynamicMethod(eyfx eyfxVar, Object obj, Object obj2) {
+        eyhz eyhzVar;
+        int ordinal = eyfxVar.ordinal();
+        if (ordinal == 0) {
+            return (byte) 1;
+        }
+        if (ordinal == 2) {
+            return newMessageInfo(a, "\u0004\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"b", eshg.a});
+        }
+        if (ordinal == 3) {
+            return new eshh();
+        }
+        if (ordinal == 4) {
+            return new eshf();
+        }
+        if (ordinal == 5) {
+            return a;
+        }
+        if (ordinal != 6) {
+            throw null;
+        }
+        eyhz eyhzVar2 = c;
+        if (eyhzVar2 != null) {
+            return eyhzVar2;
+        }
+        synchronized (eshh.class) {
+            eyhzVar = c;
+            if (eyhzVar == null) {
+                eyhzVar = new eyfr(a);
+                c = eyhzVar;
+            }
+        }
+        return eyhzVar;
+    }
+}

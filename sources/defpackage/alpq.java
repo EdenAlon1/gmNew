@@ -1,0 +1,33 @@
+package defpackage;
+
+import j$.util.DesugarCollections;
+import j$.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+final class alpq implements ffji {
+    final /* synthetic */ int a;
+    final /* synthetic */ int b;
+
+    public alpq(int i, int i2) {
+        this.a = i;
+        this.b = i2;
+    }
+
+    @Override // defpackage.ffji
+    public final /* bridge */ /* synthetic */ Object invoke(Object obj) {
+        aloy aloyVar = (aloy) obj;
+        alov alovVar = (alov) Map.EL.getOrDefault(DesugarCollections.unmodifiableMap(DesugarCollections.unmodifiableMap(((alpb) aloyVar.instance).c)), Integer.valueOf(this.a), alov.a);
+        alox aloxVar = (alox) Map.EL.getOrDefault(DesugarCollections.unmodifiableMap(alovVar.c), Integer.valueOf(this.b), alox.a);
+        alot alotVar = (alot) alovVar.toBuilder();
+        alow alowVar = (alow) aloxVar.toBuilder();
+        int i = aloxVar.j + 1;
+        alowVar.copyOnWrite();
+        alox aloxVar2 = (alox) alowVar.instance;
+        aloxVar2.b |= 128;
+        aloxVar2.j = i;
+        alotVar.a(this.b, (alox) alowVar.build());
+        aloyVar.a(this.a, (alov) alotVar.build());
+        return ffcu.a;
+    }
+}

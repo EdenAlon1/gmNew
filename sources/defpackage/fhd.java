@@ -1,0 +1,30 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+final class fhd extends ffhv implements ffjm {
+    final /* synthetic */ fhi a;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public fhd(fhi fhiVar, ffgu ffguVar) {
+        super(2, ffguVar);
+        this.a = fhiVar;
+    }
+
+    @Override // defpackage.ffjm
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((fhd) c((ffsk) obj, (ffgu) obj2)).b(ffcu.a);
+    }
+
+    @Override // defpackage.ffhp
+    public final Object b(Object obj) {
+        ffci.b(obj);
+        this.a.z();
+        return ffcu.a;
+    }
+
+    @Override // defpackage.ffhp
+    public final ffgu c(Object obj, ffgu ffguVar) {
+        return new fhd(this.a, ffguVar);
+    }
+}

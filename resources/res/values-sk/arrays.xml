@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>Zachytiť radosť</item>
+        <item>Urobiť si usmiatu selfie</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25 ×</item>
+        <item>0,5 ×</item>
+        <item>0,75 ×</item>
+        <item>Normálne</item>
+        <item>1,25 ×</item>
+        <item>1,5 ×</item>
+        <item>2 ×</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Láska</item>
+        <item>Áno</item>
+        <item>Bozkávam</item>
+        <item>Ahoj</item>
+        <item>Objímam</item>
+        <item>Slávim</item>
+        <item>Hnevám sa</item>
+        <item>Teším sa</item>
+        <item>Dovi</item>
+        <item>Haha</item>
+        <item>Plačem</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>Zamávať na pozdrav</item>
+        <item>Pošlite selfie s raňajkami</item>
+        <item>Pošlite rannú selfie</item>
+        <item>Pošlite ospalú selfie</item>
+        <item>Pošlite selfie s kávou</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>Pošlite ospalú selfie</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>Poslať palec hore</item>
+        <item>Zamávať na pozdrav</item>
+        <item>Poslať selfie</item>
+        <item>Prejaviť náladu</item>
+        <item>Poslať grimasu</item>
+    </array>
+    <array name="love_strings">
+        <item>Poslať selfie</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Áno</item>
+        <item>Nie</item>
+        <item>OK</item>
+        <item>Haha</item>
+        <item>Vďaka</item>
+        <item>Súhlasím</item>
+        <item>Pekné</item>
+        <item>Som na ceste</item>
+        <item>Dobre, ozvem sa neskôr</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS s odkazom</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Vždy odoslať znova ako SMS</item>
+        <item>Odoslať znova ako SMS mimo roamingu</item>
+        <item>Opýtať sa pred opätovným odoslaním</item>
+        <item>Nikdy neodosielať znova ako SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Vždy odoslať znova ako SMS/MMS</item>
+        <item>Odoslať znova ako SMS/MMS mimo roamingu</item>
+        <item>Opýtať sa pred opätovným odoslaním</item>
+        <item>Nikdy neodosielať znova ako SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

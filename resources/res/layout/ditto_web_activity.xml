@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ditto_web_fragment_ref"
+    android:tag="ditto_web_fragment_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.google.android.apps.messaging.dittosatellite.impl.DittoWebFragment"/>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>Արտահայտել ուրախությունը</item>
+        <item>Ժպտերես սելֆի անել</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Սովորական</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>Սեր</item>
+        <item>Այո</item>
+        <item>Համբույր</item>
+        <item>Ողջույն</item>
+        <item>Գրկում եմ</item>
+        <item>Երեկույթ</item>
+        <item>Զայրացած</item>
+        <item>Ոգևորված</item>
+        <item>Ցտեսություն</item>
+        <item>LOL</item>
+        <item>Լաց եմ լինում</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>Ձեռքով անել</item>
+        <item>Ուղարկեք սելֆի՝ նախաճաշելիս</item>
+        <item>Ուղարկեք առավոտյան սելֆի</item>
+        <item>Ուղարկեք սելֆի քնկոտ վիճակում</item>
+        <item>Ուղարկեք սելֆի՝ սրճելիս</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>Ուղարկեք սելֆի քնկոտ վիճակում</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>«Լավն է» ժեստ ուղարկել</item>
+        <item>Ձեռքով անել</item>
+        <item>Սելֆի ուղարկել</item>
+        <item>Ցույց տալ սեփական տրամադրությունը</item>
+        <item>Հիմար դեմք ուղարկել</item>
+    </array>
+    <array name="love_strings">
+        <item>Սելֆի ուղարկել</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>Այո</item>
+        <item>Ոչ</item>
+        <item>Լավ</item>
+        <item>Հե-հե</item>
+        <item>Շնորհակալություն</item>
+        <item>Համաձայն եմ</item>
+        <item>Գերազանց է</item>
+        <item>Ճանապարհին եմ</item>
+        <item>Լավ, ավելի ուշ կկապվեմ ձեզ հետ</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>SMS՝ հղումով</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>Միշտ վերաուղարկել որպես SMS</item>
+        <item>Կրկին ուղարկել որպես SMS, երբ ռոումինգում չեմ</item>
+        <item>Հարցնել նախքան վերաուղարկելը</item>
+        <item>Երբեք չուղարկել որպես SMS</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>Միշտ վերաուղարկել որպես SMS/MMS</item>
+        <item>Կրկին ուղարկել որպես SMS/MMS, երբ ռոումինգում չեմ</item>
+        <item>Հարցնել նախքան վերաուղարկելը</item>
+        <item>Երբեք չուղարկել որպես SMS/MMS</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

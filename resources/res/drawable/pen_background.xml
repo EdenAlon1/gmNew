@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:inset="6dp">
+    <ripple android:color="?attr/colorOnSurfaceStateLayer">
+        <item>
+            <selector>
+                <item
+                    android:drawable="@drawable/pen_selected_background"
+                    android:state_activated="true"/>
+                <item android:drawable="@drawable/pen_deselected_background"/>
+            </selector>
+        </item>
+    </ripple>
+</inset>

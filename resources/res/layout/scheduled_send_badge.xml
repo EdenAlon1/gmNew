@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="@drawable/badge_background"
+    android:clipChildren="false"
+    android:layout_width="@dimen/badge_height"
+    android:layout_height="@dimen/badge_height"
+    android:contentDescription="@string/scheduled_send_badge_content_description"
+    android:importantForAccessibility="yes"
+    android:elevation="@dimen/badge_elevation">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/scheduled_send_badge_icon"
+        android:layout_width="@dimen/badge_icon_height"
+        android:layout_height="@dimen/badge_icon_weight"
+        android:src="@drawable/gs_schedule_send_vd_theme_24"
+        android:tint="@color/badge_icon_tint_color"
+        android:contentDescription="@null"/>
+</FrameLayout>

@@ -1,0 +1,24 @@
+package defpackage;
+
+import java.util.Set;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class ewuf implements evbk {
+    private final ecda b = ecda.a(ewum.a, new ecda("GetPhoneAcledProfilesByPhone"));
+    private final enip c = enpd.a;
+
+    @Override // defpackage.evbk
+    public final ecda a() {
+        return this.b;
+    }
+
+    @Override // defpackage.evbk
+    public final Set b() {
+        return this.c.isEmpty() ? ewum.ac.ae : this.c;
+    }
+
+    public final String toString() {
+        return this.b.a;
+    }
+}

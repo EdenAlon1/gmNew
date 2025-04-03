@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:textAppearance="?attr/textAppearanceOverline"
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="center_vertical"
+        android:id="@+id/photo_picker_category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/photo_picker_art_collection_item_margin"
+        android:layout_marginHorizontal="@dimen/photo_picker_art_home_screen_margin"/>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/photo_picker_collection_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/photo_picker_collection_image_divider"
+            android:showDividers="middle"
+            android:paddingHorizontal="@dimen/photo_picker_art_home_screen_margin"/>
+    </HorizontalScrollView>
+</LinearLayout>

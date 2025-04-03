@@ -1,0 +1,30 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+final class guu extends ffkk implements ffjm {
+    final /* synthetic */ kev a;
+    final /* synthetic */ ffjn b;
+    final /* synthetic */ hvi c;
+    final /* synthetic */ ffjm d;
+    final /* synthetic */ int e;
+    final /* synthetic */ gvi f;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public guu(kev kevVar, ffjn ffjnVar, gvi gviVar, hvi hviVar, ffjm ffjmVar, int i) {
+        super(2);
+        this.a = kevVar;
+        this.b = ffjnVar;
+        this.f = gviVar;
+        this.c = hviVar;
+        this.d = ffjmVar;
+        this.e = i;
+    }
+
+    @Override // defpackage.ffjm
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        ((Number) obj2).intValue();
+        gvc.b(this.a, this.b, this.f, this.c, this.d, (hfd) obj, hip.a(this.e | 1));
+        return ffcu.a;
+    }
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="celebration_strings">
+        <item>記錄歡樂時光</item>
+        <item>拍張露出笑容的自拍照</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </array>
+    <array name="gif_category_names_tenor">
+        <item>愛</item>
+        <item>好</item>
+        <item>親吻</item>
+        <item>打招呼</item>
+        <item>擁抱</item>
+        <item>派對</item>
+        <item>生氣</item>
+        <item>興奮</item>
+        <item>再見</item>
+        <item>大笑</item>
+        <item>哭泣</item>
+    </array>
+    <array name="goodmorning_strings">
+        <item>揮手打招呼</item>
+        <item>傳送早餐自拍照</item>
+        <item>傳送晨間自拍照</item>
+        <item>傳送睡意朦朧的自拍照</item>
+        <item>傳送咖啡自拍照！</item>
+    </array>
+    <array name="goodnight_strings">
+        <item>傳送睡意朦朧的自拍照</item>
+    </array>
+    <array name="howareyou_strings">
+        <item>傳送表示喜歡的表情</item>
+        <item>揮手打招呼</item>
+        <item>傳送自拍照</item>
+        <item>表達你的心情</item>
+        <item>傳送扮鬼臉表情</item>
+    </array>
+    <array name="love_strings">
+        <item>傳送自拍照</item>
+    </array>
+    <array name="notification_reply_choices">
+        <item>好</item>
+        <item>不了</item>
+        <item>瞭解</item>
+        <item>呵呵</item>
+        <item>謝謝</item>
+        <item>我同意</item>
+        <item>太棒了</item>
+        <item>我在路上了</item>
+        <item>好，我稍後再回覆你</item>
+        <item>:)</item>
+        <item>:(</item>
+    </array>
+    <array name="rcs_default_sharing_method_options">
+        <item>MMS</item>
+        <item>附有連結的簡訊</item>
+    </array>
+    <array name="rcs_fallback_to_sms_dialog_options">
+        <item>一律以簡訊形式重新傳送</item>
+        <item>未使用漫遊時，以簡訊形式重新傳送</item>
+        <item>先詢問我再重新傳送</item>
+        <item>一律不以簡訊形式重新傳送</item>
+    </array>
+    <array name="rcs_fallback_to_xms_dialog_options">
+        <item>一律以簡訊/多媒體訊息形式重新傳送</item>
+        <item>未使用漫遊時，以簡訊/多媒體訊息形式重新傳送</item>
+        <item>先詢問我再重新傳送</item>
+        <item>一律不以簡訊/多媒體訊息形式重新傳送</item>
+    </array>
+    <array name="rcs_mobile_data_auto_download_limit_entries">
+        <item>@string/rcs_mobile_data_auto_download_limit_default_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_2mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_5mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_10mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_25mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_50mb_entry</item>
+        <item>@string/rcs_mobile_data_auto_download_limit_disable_entry</item>
+    </array>
+    <array name="zss_contacts_synonyms">
+        <item>@string/zero_state_search_contacts</item>
+    </array>
+    <array name="zss_conversations_synonyms">
+        <item>@string/zero_state_search_conversations</item>
+    </array>
+    <array name="zss_images_synonyms">
+        <item>@string/zero_state_search_images</item>
+        <item>@string/zero_state_search_photos</item>
+        <item>@string/zero_state_search_pictures</item>
+        <item>@string/zero_state_search_screenshots</item>
+    </array>
+    <array name="zss_links_synonyms">
+        <item>@string/zero_state_search_links</item>
+    </array>
+    <array name="zss_places_synonyms">
+        <item>@string/zero_state_search_places</item>
+        <item>@string/zero_state_search_locations</item>
+        <item>@string/zero_state_search_addresses</item>
+        <item>@string/zero_state_search_streets</item>
+        <item>@string/zero_state_search_restaurants</item>
+    </array>
+    <array name="zss_starred_synonyms">
+        <item>@string/zero_state_search_starred</item>
+    </array>
+    <array name="zss_videos_synonyms">
+        <item>@string/zero_state_search_videos</item>
+        <item>@string/zero_state_search_movies</item>
+    </array>
+</resources>

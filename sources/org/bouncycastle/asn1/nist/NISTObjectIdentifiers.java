@@ -1,0 +1,103 @@
+package org.bouncycastle.asn1.nist;
+
+import org.bouncycastle.asn1.ASN1ObjectIdentifier;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public interface NISTObjectIdentifiers {
+    public static final ASN1ObjectIdentifier a;
+    public static final ASN1ObjectIdentifier b;
+    public static final ASN1ObjectIdentifier c;
+    public static final ASN1ObjectIdentifier d;
+    public static final ASN1ObjectIdentifier e;
+    public static final ASN1ObjectIdentifier f;
+    public static final ASN1ObjectIdentifier g;
+    public static final ASN1ObjectIdentifier h;
+    public static final ASN1ObjectIdentifier i;
+    public static final ASN1ObjectIdentifier j;
+    public static final ASN1ObjectIdentifier k;
+    public static final ASN1ObjectIdentifier l;
+    public static final ASN1ObjectIdentifier m;
+    public static final ASN1ObjectIdentifier n;
+    public static final ASN1ObjectIdentifier o;
+    public static final ASN1ObjectIdentifier p;
+    public static final ASN1ObjectIdentifier q;
+    public static final ASN1ObjectIdentifier r;
+    public static final ASN1ObjectIdentifier s;
+    public static final ASN1ObjectIdentifier t;
+    public static final ASN1ObjectIdentifier u;
+
+    static {
+        ASN1ObjectIdentifier aSN1ObjectIdentifier = new ASN1ObjectIdentifier("2.16.840.1.101.3.4");
+        a = aSN1ObjectIdentifier;
+        ASN1ObjectIdentifier f2 = aSN1ObjectIdentifier.f("2");
+        b = f2;
+        c = f2.f("1");
+        d = f2.f("2");
+        e = f2.f("3");
+        f = f2.f("4");
+        g = f2.f("5");
+        h = f2.f("6");
+        i = f2.f("7");
+        j = f2.f("8");
+        k = f2.f("9");
+        l = f2.f("10");
+        m = f2.f("11");
+        n = f2.f("12");
+        f2.f("13");
+        f2.f("14");
+        f2.f("15");
+        f2.f("16");
+        f2.f("17");
+        o = f2.f("18");
+        f2.f("19");
+        f2.f("20");
+        ASN1ObjectIdentifier f3 = aSN1ObjectIdentifier.f("1");
+        p = f3;
+        f3.f("1");
+        f3.f("2");
+        f3.f("3");
+        f3.f("4");
+        f3.f("5");
+        f3.f("6");
+        f3.f("7");
+        f3.f("8");
+        f3.f("9");
+        f3.f("21");
+        f3.f("22");
+        f3.f("23");
+        f3.f("24");
+        f3.f("25");
+        f3.f("26");
+        f3.f("27");
+        f3.f("28");
+        f3.f("29");
+        f3.f("41");
+        f3.f("42");
+        f3.f("43");
+        f3.f("44");
+        f3.f("45");
+        f3.f("46");
+        f3.f("47");
+        f3.f("48");
+        f3.f("49");
+        ASN1ObjectIdentifier f4 = aSN1ObjectIdentifier.f("3");
+        q = f4;
+        r = f4.f("1");
+        s = f4.f("2");
+        t = f4.f("3");
+        u = f4.f("4");
+        f4.f("5");
+        f4.f("6");
+        f4.f("7");
+        f4.f("8");
+        f4.f("9");
+        f4.f("10");
+        f4.f("11");
+        f4.f("12");
+        f4.f("13");
+        f4.f("14");
+        f4.f("15");
+        f4.f("16");
+    }
+}
