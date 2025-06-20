@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/zero_state_search_video_play_icon"
-    android:background="@drawable/play_icon_background"
-    android:layout_width="@dimen/video_play_icon_size"
-    android:layout_height="@dimen/video_play_icon_size"
-    android:src="@drawable/quantum_gm_ic_play_circle_filled_white_24"
-    android:importantForAccessibility="no"/>

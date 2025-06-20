@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="qr_welcome_banner_image_top_margin">72dp</dimen>
-    <dimen name="qr_welcome_banner_url_text_width">@dimen/wrap_content</dimen>
-</resources>

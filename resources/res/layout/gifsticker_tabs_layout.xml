@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.tabs.TabLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:visibility="gone"
-    android:layout_width="0dp"
-    android:layout_height="@dimen/gifsticker_tab_height"
-    app:tabIndicator="@drawable/gifsticker_bottom_bar_selected_item_indicator"
-    app:tabMode="fixed"
-    style="@style/ComposeScreenBottomTabLayoutStyle"/>

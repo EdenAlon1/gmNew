@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@android:color/transparent"
-    android:layout_width="@dimen/zero_state_search_result_star_icon_size"
-    android:layout_height="@dimen/zero_state_search_result_star_icon_size"
-    android:layout_marginTop="@dimen/zero_state_search_result_star_icon_top_margin"
-    android:src="@drawable/star_with_shadow"
-    android:contentDescription="@null"
-    android:layout_marginEnd="@dimen/zero_state_search_result_star_icon_end_margin"/>

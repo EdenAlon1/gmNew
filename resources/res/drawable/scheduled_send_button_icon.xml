@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/quantum_gm_ic_schedule_send_vd_theme_24"
-    android:insetTop="3dp"
-    android:insetBottom="3dp"/>

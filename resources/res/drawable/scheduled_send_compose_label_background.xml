@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <solid android:color="@color/scheduled_send_compose_label_background_color"/>
-    <corners
-        android:topLeftRadius="@dimen/scheduled_send_compose_label_corner_radius"
-        android:topRightRadius="@dimen/scheduled_send_compose_label_corner_radius"/>
-</shape>
